@@ -1,4 +1,4 @@
-# work-day-schdule-manager
+# work-day-schduler
 
 This is the simple time management tool.
 
