@@ -60,4 +60,8 @@ $(timeSlots).each(function(){
 
   // TODO: Add code to display the current date in the header of the page.
 
+  var today = dayjs();
+  var dayWeek = today.format('dddd');
+  //  display lke 'Monday, december 14th'
+$("#currentDay").text(dayWeek + ', ' + today.format('MMMM D'));
 });
